@@ -1,5 +1,6 @@
 package boletin2.pkg1;
 
+import MiPaquete.Imprimir;
 import java.util.Scanner;
 
 public class Boletin21 {
@@ -16,7 +17,9 @@ public class Boletin21 {
         altura = dato.nextFloat();
 
         System.out.println("Área: " + (base * altura / 2) + "u");
-
+        
+        Imprimir.saludo();
+        
     }
 
 }
